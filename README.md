@@ -20,7 +20,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(regexcite)
-x <- c('a', 'b', 'c')
+x <- c('a,b,c')
 regexcite::strsplit1(x = x, split = ',')
-#> [1] "a"
+#> [1] "a" "b" "c"
 ```
